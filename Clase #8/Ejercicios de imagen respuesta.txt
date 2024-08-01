@@ -1,0 +1,39 @@
+1. Tiene la siguiente variable con un arreglo de valores:
+
+
+		locations = ["North", "South", "East", "West"]
+
+	Respuesta: (1-2), (2-1), (3-3), (4-4)
+
+	(1-2)	["North", "South", "East", "West", "HQ"] ---> push()
+	(2-1)	["North", "South", "East", "West"]       ---> pop()
+	(3-3)	["South", "East", "West"]                ---> shift()
+	(4-4)	["HQ", "North", "South", "East", "West"] ---> unshift()
+
+
+2. Usted tiene una lista de elementos para mostrar cuando un usuario hace clic en un boton. Estos elementos...
+
+
+	Respuesta: 4, 2
+
+
+		function listItems(){
+			var itemList = ["Widget A", "Widget C", "Widget E"]
+			   for (i=0; i<itemList.length; i++){
+				document.getElementById("list").innerHTML += itemList[i] + "<br />"	
+			   }
+		}
+
+
+3. Una matriz de JavaScript se inicializa tal y como se indica a continuacion:
+	
+	var array = [20, 40, 60, 80];
+
+	Respuesta: [100, 40, 60, 10]
+
+		array.shift();-------- [40, 60, 80]
+		array.pop();---------- [40, 60]
+		array.push(10);------- [40, 60, 10]
+		array.unshift(100);--- [100, 40, 60, 10]
+
+
