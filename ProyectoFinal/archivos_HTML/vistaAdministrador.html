@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>HotelesGT-Usuarios</title>
+    <link rel="stylesheet" type="text/css" href="../archivos_CSS/estilo.css"> 
+
+</head>
+<body onload="cargarInfoTabla()">
+     
+    <div class="navbar">
+        <div class="navbar-links">
+            <a href="formularioAgregar.html">Agregar usuario</a>
+            <a href="../index.html">Salir</a>
+        </div>
+    </div>
+    
+    <div>
+        <p id="usuario"></p>
+        <br><br>
+        <table id="miTabla" border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Rol</th>
+                    <th>Correo</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--La informacion ira aqui -->
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="../archivos_JS/manejoInformacion.js"></script> 
+    <script type="text/javascript" src="../archivos_JS/recibirArchivosFormulario.js"></script> 
+</body>

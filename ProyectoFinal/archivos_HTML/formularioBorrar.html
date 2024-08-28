@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelesGT-BorrarUsuario</title>
+    <link rel="stylesheet" type="text/css" href="../archivos_CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../archivos_CSS/estiloFormulario.css">
+</head>
+</head>
+<body onload="borrarUsuario()">
+        <form id="borrarForm" action="#" method="post">
+            <h2 style="text-align: center;">Borrar Usuario</h2>
+            <p style="display: inline-block;">Id: </p><input id="id" type="text" placeholder="id" readonly><br>
+            <p style="display: inline-block;">Nombre: </p><input id="nombre" type="text" placeholder="Nombre" readonly><br>
+            <p style="display: inline-block;">Apellido: </p><input id="apellido" type="text" placeholder="Apellido" readonly><br>
+            <p style="display: inline-block;">Telefono: </p><input id="telefono" type="number" placeholder="Teléfono" readonly><br>
+            <p style="display: inline-block;">Direccion: </p><input id="direccion" type="text" placeholder="Dirección" readonly><br>
+            <p style="display: inline-block;">Correo: </p><input id="correo" type="email" placeholder="Correo" readonly><br>
+            <p style="display: inline-block;">fecha de Nacimiento: </p><input id="fecha_na" type="date" placeholder="Fecha de Nacimiento" readonly><br>
+            <p style="display: inline-block;">Constraseña: </p><input id="contrasenia" type="text" placeholder="Contraseña" readonly><br>
+            <input type="submit" value="Borrar">         
+            <button type="button"><a href="vistaAdministrador.html">Cancelar</a></button>
+        </form>
+        
+        <script type="text/javascript" src="../archivos_JS/manejoInformacion.js"></script> 
+        <script type="text/javascript" src="../archivos_JS/recibirArchivosFormulario.js"></script> 
+</body>
+</html>

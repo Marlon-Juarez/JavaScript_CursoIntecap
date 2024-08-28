@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelesGT-AgregarUsuario</title>
+    <link rel="stylesheet" type="text/css" href="../archivos_CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../archivos_CSS/estiloFormulario.css">
+</head>
+</head>
+<body onload="agregarUsuarioFormulario()">
+        <form id="agregForm" action="#" method="post">
+            <h2 style="text-align: center;">Agregar Usuario</h2>
+            <p id="textoFormulario">Nombre: </p><input oninput="generarCorreo()" id="nombre" type="text" placeholder="Nombre" ><br>
+            <p id="textoFormulario">Apellido: </p><input oninput="generarCorreo()" id="apellido" type="text" placeholder="Apellido"><br>
+            <p id="textoFormulario">Telefono: </p><input id="telefono" type="number" placeholder="Teléfono"><br>
+            <p id="textoFormulario">Direccion: </p><input id="direccion" type="text" placeholder="Dirección"><br>
+            <p id="textoFormulario">Correo: </p><input id="correo" type="email" placeholder="Correo"><br>
+            <p id="textoFormulario">fecha de Nacimiento: </p><input id="fecha_na" type="date" placeholder="Fecha de Nacimiento" ><br>
+            <p id="textoFormulario">Constraseña: </p><input id="contrasenia" type="text" placeholder="Contraseña"><br>
+            <input type="submit" value="Entrar">
+            <button type="button" onclick="window.location.href='vistaAdministrador.html'">Cancelar</button>
+        </form>
+
+        <script type="text/javascript" src="../archivos_JS/manejoInformacion.js"></script> 
+        <script type="text/javascript" src="../archivos_JS/recibirArchivosFormulario.js"></script> 
+</body>
+</html>
